@@ -1,0 +1,109 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('copy.jpg');
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Center the background image */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh; /* Full screen height */
+}
+
+/* Container styling */
+.container {
+    background: rgba(32, 32, 32, 0); /* Increase transparency */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 550px;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#file{
+    color: #020f2c;
+}
+#query{
+    background-color: #8ac4d3;
+    color: #ffffff;
+}
+
+
+/* Header styling */
+h1 {
+    
+    color: #020f2c; /* Teal color */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    font-weight: bold;
+    color: #020f2c;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+/* Input styling */
+input[type="file"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Button styling */
+button {
+    background-color:#020f2c; /* Teal color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: #333;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #025e75; /* Darker teal */
+}
+
+/* Form alignment */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.container1{
+    color: #020f2c;
+    text-align:center;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10%;    
+    
+}
+
+.b{
+    text-align: center;
+    
+}
+.b:hover{
+    color: aqua;
+}
+.a{
+    color: #020f2c;
+    text-align: center;
+}

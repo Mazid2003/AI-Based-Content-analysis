@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>AI Based Content Analysis</title>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Based Content Analysis</h1>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <label for="file"><b>Upload your PDF:</b></label>
+            <input type="file" name="file" id="file" required>
+            
+            <label for="query"><b>Enter your query:</b></label>
+            <input type="text" name="query" id="query" placeholder="Type your query here..." required>
+            
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>
