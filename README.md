@@ -1,5 +1,5 @@
 This is a project based on Natural Language Processing(NLP). where user can give a input as pdf file and can ask queries related to the content which is present in that pdf file. Our model
-try to answer to those queries and retrieve the content related to that query. In this project, we have used a popular python framework (Flask) which is used to integrate the designing and 
+tries to answer those queries and retrieve the content related to that query. In this project, we have used a popular python framework (Flask) which is used to integrate the designing and 
 frontend part of the website
 
 Here logo_detection_query_model.py is the python file where our NLP model is present.
